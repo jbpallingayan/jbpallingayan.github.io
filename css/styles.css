@@ -1381,3 +1381,22 @@ footer .container {
         width: 100%;
     }
 }
+
+/* Responsive automation test recording. */
+.video-embed {
+    position: relative;
+    height: 0;
+    padding-bottom: 56.25%;
+    margin: 24px 0;
+    overflow: hidden;
+    border-radius: 8px;
+    background: #172331;
+}
+
+.video-embed iframe {
+    position: absolute;
+    inset: 0;
+    width: 100%;
+    height: 100%;
+    border: 0;
+}
