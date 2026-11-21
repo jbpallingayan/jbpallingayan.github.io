@@ -4,7 +4,10 @@
   "description": "",
   "main": "js/scripts.js",
   "scripts": {
-    "watch": "gulp watch"
+    "watch": "gulp watch",
+    "test:e2e": "npm --prefix tests/e2e test",
+    "test:e2e:ui": "npm --prefix tests/e2e run test:ui",
+    "test:e2e:report": "npm --prefix tests/e2e run report"
   },
   "keywords": [
     "portfolio",
